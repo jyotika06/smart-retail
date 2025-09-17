@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.log
+
+# FastAPI
+.env
+*.db
+instance/
+
+# VS Code
+.vscode/
+
+# Test and coverage
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+
+# Migrations
+migrations/
+
+# Others
+*.sqlite3
+*.pkl
+*.h5
+*.csv
+*.json
